@@ -1,30 +1,45 @@
-    
-print('Hello World!')
-#comment#
-#in js let varname = value
-# js ;
-#python no ; needed  
-#in python #
-temperature = 20
-#string 
-name = 'jesenia'
-#number
-number = 123
-#or Easly change to boolean
-number = True
-# arrays in python ar called list
-list = [1,2,3,4,5]
+last_name = "Guerrero"
+first_name = "Jessie"
+age = 30
+price = 100.99
+found = False
 
-#issue with python is its slow
-#addition
-result = 1 + 1
-#subtraction
-result = 1 - 1
-#multiplication
-result = 1 * 1
- #function nameOf()
- #print is like console log
- def greet(name)
-    Print(f "hello, {name}!")
 
-    greet("Jessie")
+print(first_name)
+print(last_name)
+print(first_name + " " + last_name)
+
+print(age / 2)
+
+print(first_name + str(age))
+
+
+#if and else
+
+if age < 100:
+    print("dont worry you are young")
+    print("inside the f")
+
+elif age == 100:
+    print('great')
+else:
+    print('sorry your old')
+
+print("outside the if")
+
+
+#functions
+
+def say_hello():
+ print("hello from fn")
+ say_hello()
+ say_hello()
+ say_hello()
+
+
+
+def greet(name):
+ print("Hello" + name)
+   #call this function  
+ greet(jessie)
+ greet(jessie)
